@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package tourdantravel;
+import forms.formUtama;
 
 /**
  *
@@ -25,6 +26,8 @@ public class Tourdantravel {
         System.out.println("Nama : "+obj.getNama());
         System.out.println("Alamat : "+ obj.getAlamat());
         System.out.println("Telp : "+obj.getTelp());
+        
+        new formUtama().setVisible(true);
     }
     
 }
